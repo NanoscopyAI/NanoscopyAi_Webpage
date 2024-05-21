@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function() {
-    fetch('data/software_data.json')
+    fetch('data/software_data.json') 
         .then(response => response.json())
         .then(data => {
             const tableContainer = document.getElementById('softwareTable');
