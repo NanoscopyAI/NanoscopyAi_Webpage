@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', function() {
             let tableHTML = "<table>";
 
             // Define applications and input types
-            const applications = ["Data Packaging", "Data Processing", "Data Analysis", "Statistical Analysis"];
+            const applications = ["Data Packaging", "Data Processing (reconstruction)", "Data Analysis", "Statistical Analysis"];
             const inputTypes = ["Point cloud (SMLM)", "Pixel/Voxel"];
 
             // Create headers for the matrix table
