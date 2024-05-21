@@ -9,7 +9,9 @@
     "manual_docs": "https://www.medicalimageanalysis.com/software/superresnet/documentation",
     "tests": "TODO",
     "contact": "ikhater@sfu.ca",
-    "link": "https://www.medicalimageanalysis.com/software/superresnet"
+    "link": "https://www.medicalimageanalysis.com/software/superresnet",
+    "application": "Data Analysis",
+    "inputType": "Point cloud (SMLM)"
   },
   {
     "name": "SuperResNet Batch",
@@ -21,7 +23,9 @@
     "manual_docs": "TODO",
     "tests": "TODO",
     "contact": "cdh13@sfu.ca",
-    "link": "https://github.com/NanoscopyAI/SuperResNET-Batch"
+    "link": "https://github.com/NanoscopyAI/SuperResNET-Batch",
+    "application": "Data Analysis",
+    "inputType": "Point cloud (SMLM)"
   },
   {
     "name": "ERGO",
@@ -33,7 +37,9 @@
     "manual_docs": "https://github.com/NanoscopyAI/ERGO",
     "tests": "https://dl.circleci.com/status-badge/redirect/gh/bencardoen/ERGO.jl/tree/main",
     "contact": "bcardoen@sfu.ca",
-    "link": "https://github.com/NanoscopyAI/ERGO"
+    "link": "https://github.com/NanoscopyAI/ERGO",
+    "application": "Data Processing (reconstruction)",
+    "inputType": "Point cloud (SMLM)"
   },
   {
     "name": "Smlmvis",
@@ -45,7 +51,9 @@
     "manual_docs": "https://github.com/NanoscopyAI/smlmvis",
     "tests": "TODO",
     "contact": "bcardoen@sfu.ca",
-    "link": "https://github.com/NanoscopyAI/smlmvis"
+    "link": "https://github.com/NanoscopyAI/smlmvis",
+    "application": "Data Processing (reconstruction)",
+    "inputType": "Point cloud (SMLM)"
   },
   {
     "name": "SPECHT",
@@ -57,7 +65,9 @@
     "manual_docs": "https://github.com/NanoscopyAI/SPECHT.jl",
     "tests": "https://dl.circleci.com/status-badge/redirect/gh/bencardoen/SPECHT.jl/tree/main",
     "contact": "bcardoen@sfu.ca",
-    "link": "https://github.com/NanoscopyAI/SPECHT.jl"
+    "link": "https://github.com/NanoscopyAI/SPECHT.jl",
+    "application": "Data Analysis",
+    "inputType": "Pixel/Voxel"
   },
   {
     "name": "DataCurator",
@@ -69,7 +79,9 @@
     "manual_docs": "https://github.com/NanoscopyAI/DataCurator.jl",
     "tests": "https://dl.circleci.com/status-badge/img/gh/bencardoen/DataCurator.jl/tree/main",
     "contact": "bcardoen@sfu.ca",
-    "link": "https://github.com/NanoscopyAI/DataCurator.jl"
+    "link": "https://github.com/NanoscopyAI/DataCurator.jl",
+    "application": "Data Packaging",
+    "inputType": "Point cloud (SMLM)"
   },
   {
     "name": "LogParadox",
@@ -81,7 +93,9 @@
     "manual_docs": "https://github.com/NanoscopyAI/LogParadox.jl",
     "tests": "https://dl.circleci.com/status-badge/img/gh/bencardoen/LogParadox.jl/tree/main",
     "contact": "bcardoen@sfu.ca",
-    "link": "https://github.com/NanoscopyAI/LogParadox.jl"
+    "link": "https://github.com/NanoscopyAI/LogParadox.jl",
+    "application": "Statistical Analysis",
+    "inputType": "Point cloud (SMLM)"
   },
   {
     "name": "SmlmTools",
@@ -93,7 +107,9 @@
     "manual_docs": "https://github.com/NanoscopyAI/SmlmTools.jl",
     "tests": "https://dl.circleci.com/status-badge/img/gh/bencardoen/SmlmTools.jl/tree/master",
     "contact": "bcardoen@sfu.ca",
-    "link": "https://github.com/NanoscopyAI/SmlmTools.jl"
+    "link": "https://github.com/NanoscopyAI/SmlmTools.jl",
+    "application": "Data Processing (reconstruction)",
+    "inputType": "Point cloud (SMLM)"
   },
   {
     "name": "MCS-Detect",
@@ -105,7 +121,9 @@
     "manual_docs": "https://github.com/NanoscopyAI/SubPrecisionContactDetection.jl",
     "tests": "https://dl.circleci.com/status-badge/img/gh/bencardoen/SubPrecisionContactDetection.jl/tree/main",
     "contact": "bcardoen@sfu.ca",
-    "link": "https://github.com/NanoscopyAI/SubPrecisionContactDetection.jl"
+    "link": "https://github.com/NanoscopyAI/SubPrecisionContactDetection.jl",
+    "application": "Data Analysis",
+    "inputType": "Pixel/Voxel"
   },
   {
     "name": "Colocalization",
@@ -117,6 +135,36 @@
     "manual_docs": "https://github.com/NanoscopyAI/Colocalization.jl",
     "tests": "https://dl.circleci.com/status-badge/img/gh/bencardoen/Colocalization.jl/tree/main",
     "contact": "bcardoen@sfu.ca",
-    "link": "https://github.com/NanoscopyAI/Colocalization.jl"
+    "link": "https://github.com/NanoscopyAI/Colocalization.jl",
+    "application": "Data Analysis",
+    "inputType": "Pixel/Voxel"
+  },
+  {
+    "name": "ER-Analysis-scripts",
+    "modality": "2D Confocal",
+    "language": "Python, Matlab",
+    "task": "Image Processing (IP), Graph Processing (GP)",
+    "license": "TODO",
+    "publication": "TODO",
+    "manual_docs": "TODO",
+    "tests": "TODO",
+    "contact": "asa420@sfu.ca",
+    "link": "https://github.com/NanoscopyAI/ER-Analysis-scripts",
+    "application": "Statistical Analysis",
+    "inputType": "Point cloud (SMLM)"
+  },
+  {
+    "name": "nERdy",
+    "modality": "2D Confocal",
+    "language": "Python, Matlab",
+    "task": "Image Processing (IP), Graph Processing (GP), Deep Learning (DL)",
+    "license": "AGPLv3",
+    "publication": "TODO",
+    "manual_docs": "TODO",
+    "tests": "TODO",
+    "contact": "asa420@sfu.ca",
+    "link": "https://github.com/NanoscopyAI/nERdy",
+    "application": "Data Processing (reconstruction)",
+    "inputType": "Pixel/Voxel"
   }
 ]
