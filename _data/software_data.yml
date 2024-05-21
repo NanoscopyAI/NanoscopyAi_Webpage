@@ -8,6 +8,8 @@
   tests: "TODO"
   contact: "ikhater@sfu.ca"
   link: "https://www.medicalimageanalysis.com/software/superresnet"
+  application: "Data Analysis"
+  inputType: "Point cloud (SMLM)"
 
 - name: SuperResNet Batch
   modality: "Pointcloud, dStorm"
@@ -19,6 +21,8 @@
   tests: "TODO"
   contact: "cdh13@sfu.ca"
   link: "https://github.com/NanoscopyAI/SuperResNET-Batch"
+  application: "Data Analysis"
+  inputType: "Point cloud (SMLM)"
 
 - name: ERGO
   modality: "Pointcloud, dStorm"
@@ -30,6 +34,8 @@
   tests: "https://dl.circleci.com/status-badge/redirect/gh/bencardoen/ERGO.jl/tree/main"
   contact: "bcardoen@sfu.ca"
   link: "https://github.com/NanoscopyAI/ERGO"
+  application: "Data Processing (reconstruction)"
+  inputType: "Point cloud (SMLM)"
 
 - name: Smlmvis
   modality: "Pointcloud, dStorm"
@@ -41,6 +47,8 @@
   tests: "TODO"
   contact: "bcardoen@sfu.ca"
   link: "https://github.com/NanoscopyAI/smlmvis"
+  application: "Data Processing (reconstruction)"
+  inputType: "Point cloud (SMLM)"
 
 - name: SPECHT
   modality: "2D STED, voxel"
@@ -52,6 +60,8 @@
   tests: "https://dl.circleci.com/status-badge/redirect/gh/bencardoen/SPECHT.jl/tree/main"
   contact: "bcardoen@sfu.ca"
   link: "https://github.com/NanoscopyAI/SPECHT.jl"
+  application: "Data Analysis"
+  inputType: "Pixel/Voxel"
 
 - name: DataCurator
   modality: "2/3D voxel, pointcloud, HDF5, CSV"
@@ -63,6 +73,8 @@
   tests: "https://dl.circleci.com/status-badge/img/gh/bencardoen/DataCurator.jl/tree/main"
   contact: "bcardoen@sfu.ca"
   link: "https://github.com/NanoscopyAI/DataCurator.jl"
+  application: "Data Packaging"
+  inputType: "Point cloud (SMLM)"
 
 - name: LogParadox
   modality: "CSV"
@@ -74,6 +86,8 @@
   tests: "https://dl.circleci.com/status-badge/img/gh/bencardoen/LogParadox.jl/tree/main"
   contact: "bcardoen@sfu.ca"
   link: "https://github.com/NanoscopyAI/LogParadox.jl"
+  application: "Statistical Analysis"
+  inputType: "Point cloud (SMLM)"
 
 - name: SmlmTools
   modality: "dSTORM"
@@ -85,6 +99,8 @@
   tests: "https://dl.circleci.com/status-badge/img/gh/bencardoen/SmlmTools.jl/tree/master"
   contact: "bcardoen@sfu.ca"
   link: "https://github.com/NanoscopyAI/SmlmTools.jl"
+  application: "Data Processing (reconstruction)"
+  inputType: "Point cloud (SMLM)"
 
 - name: MCS-Detect
   modality: "3D STED"
@@ -96,6 +112,8 @@
   tests: "https://dl.circleci.com/status-badge/img/gh/bencardoen/SubPrecisionContactDetection.jl/tree/main"
   contact: "bcardoen@sfu.ca"
   link: "https://github.com/NanoscopyAI/SubPrecisionContactDetection.jl"
+  application: "Data Analysis"
+  inputType: "Pixel/Voxel"
 
 - name: Colocalization
   modality: "2-3D Voxel"
@@ -107,4 +125,31 @@
   tests: "https://dl.circleci.com/status-badge/img/gh/bencardoen/Colocalization.jl/tree/main"
   contact: "bcardoen@sfu.ca"
   link: "https://github.com/NanoscopyAI/Colocalization.jl"
+  application: "Data Analysis"
+  inputType: "Pixel/Voxel"
 
+- name: ER-Analysis-scripts
+  modality: "2D Confocal"
+  language: "Python, Matlab"
+  task: "Image Processing (IP), Graph Processing (GP)"
+  license: "TODO"
+  publication: "TODO"
+  manual_docs: "TODO"
+  tests: "TODO"
+  contact: "asa420@sfu.ca"
+  link: "https://github.com/NanoscopyAI/ER-Analysis-scripts"
+  application: "Statistical Analysis"
+  inputType: "Point cloud (SMLM)"
+
+- name: nERdy
+  modality: "2D Confocal"
+  language: "Python, Matlab"
+  task: "Image Processing (IP), Graph Processing (GP), Deep Learning (DL)"
+  license: "AGPLv3"
+  publication: "TODO"
+  manual_docs: "TODO"
+  tests: "TODO"
+  contact: "asa420@sfu.ca"
+  link: "https://github.com/NanoscopyAI/nERdy"
+  application: "Data Processing (reconstruction)"
+  inputType: "Pixel/Voxel"
